@@ -1,4 +1,4 @@
-# 字符串の七十二变 🎭——从青铜到铂金的骚操作大全
+# 字符串的七十二变 🎭——从青铜到铂金的骚操作大全
 
 ## 基础招式篇
 
@@ -14,7 +14,7 @@ let greeting = 'Hello, my name is ' + name + ' and I am ' + age + ' years old';
 greeting = `Hello, my name is ${name} and I am ${age} years old`;
 ```
 
-### 2. 字符串对象の诞生
+### 2. 字符串对象的诞生
 ```javascript
 const slogan = new String('摸鱼是人类进步的阶梯');
 console.log(typeof slogan); // "object" → 包装成土豪对象
@@ -95,6 +95,6 @@ console.log(workReport.split('-'));
 3. **正则搭配**：复杂操作请出正则表达式
 4. **注意编码**：处理emoji时小心长度计算
 
-> 下集预告：数组の千层套路——从青铜到王者的进化史
+> 下集预告：数组的千层套路——从青铜到王者的进化史
 
 💡 记住：字符串就像橡皮泥——掌握方法才能捏出想要的样子！ 🎨 

@@ -15,7 +15,24 @@
       repo: 'hingsli',
       loadSidebar: true,
       subMaxLevel: 2,
-      search: 'auto'
+      search: {
+        maxDepth: 4,          // 增加搜索深度到4级目录
+        placeholder: '🔍 搜索',
+        noDataText: '没找到相关结果',
+        paths: 'auto',
+        namespace: 'javascript-tutorial', // 添加命名空间避免冲突
+        ignoreAccents: true,   // 允许忽略拼音/音调差异
+        maxAge: 86400000,      // 延长搜索缓存时间（24小时）
+        fuseOptions: {         // 优化搜索算法参数
+            keys: ['title', 'content', 'headers'],
+            includeMatches: true,
+            minMatchCharLength: 1,
+            threshold: 0.3,
+            ignoreLocation: true,
+            matchAllTokens: true,
+            limit: 20          // 显示最多20条搜索结果
+        }
+      }
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>

@@ -1,6 +1,6 @@
-# 变量の千层套路 🍰——从青铜到王者的进化史
+# 变量的千层套路 🍰——从青铜到王者的进化史
 
-## 变量三兄弟：var、let、const の爱恨情仇
+## 变量三兄弟：var、let、const 的爱恨情仇
 
 ### 大哥 var（退休老干部）
 ```javascript
@@ -31,22 +31,22 @@ moYuManual.push('假装加班'); // 表面专一，暗地操作（数组可修�
 
 ---
 
-## 变量起名の玄学 📛
+## 变量起名的玄学 📛
 ### 命名潜规则
 - ✅ 允许：字母、数字、_、$  
 - ❌ 禁止：`let 520hongbao = ?`（数字开头达咩）  
-- 🚫 禁用：`let 真の摸鱼 = '?'`（中文变量是异端！）
+- 🚫 禁用：`let 真的摸鱼 = '?'`（中文变量是异端！）
 
-### 命名格式の修罗场
+### 命名格式的修罗场
 ```javascript
-// 骆驼式（主流の选择）
+// 骆驼式（主流的选择）
 const slackingCoefficient = 0.87 // 老板来了记得改回0.87
 
 // 蛇形走位（PHP遗老专用）
 const slacking_coefficient = 0.87 
 
 // 帕斯卡式（React组件专属）
-const SlackingCoefficient = 0.87 // 组件大佬の尊严
+const SlackingCoefficient = 0.87 // 组件大佬的尊严
 
 // 全小写（新手村专属）
 const slackingfactor = 0.87 // 读代码时：？？？
@@ -82,6 +82,6 @@ console.log(profile); // {name: "张三", workYears: "3年", skill: "带薪拉�
 2. **需要劈腿用 let** —— 月光族刚需
 3. **永远别用 var** —— 除非想被同事追杀
 
-> 下集预告：数据类型の奇幻漂流——从`undefined`到`object`的奇妙冒险！
+> 下集预告：数据类型的奇幻漂流——从`undefined`到`object`的奇妙冒险！
 
 💡 记住：变量就像内裤——①每天要换（及时更新） ②别用别人的（作用域） ③别到处乱扔（全局污染） 🩲 

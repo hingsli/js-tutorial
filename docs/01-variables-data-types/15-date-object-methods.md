@@ -1,4 +1,4 @@
-# Date对象の摸鱼宝典 📅——时间操作终极奥义
+# Date对象的摸鱼宝典 📅——时间操作终极奥义
 
 ## 基础操作篇
 
@@ -80,6 +80,6 @@ const restoreSlackScene = new Date(slackStartTimestamp);
 3. **时区敏感操作**：永远明确指定时区
 4. **性能优化**：频繁操作建议使用时间戳
 
-> 下集预告：异步编程の奥义——从setTimeout到Promise
+> 下集预告：异步编程的奥义——从setTimeout到Promise
 
 💡 记住：时间就像海绵里的水——用Date对象挤一挤，总能摸出鱼来！ 🐟 

@@ -1,6 +1,6 @@
-# 内存の奇妙冒险 🧠——栈与堆の爱恨情仇
+# 内存的奇妙冒险 🧠——栈与堆的爱恨情仇
 
-## 内存舞台の两位主角
+## 内存舞台的两位主角
 
 ### 栈（Stack）—— 单身公寓
 - **住户**：原始类型（String、Number等）
@@ -30,9 +30,9 @@ const dailyLife = { // 堆区豪宅
 
 ---
 
-## 变量搬家の迷惑行为大赏 🚚
+## 变量搬家的迷惑行为大赏 🚚
 
-### 案例1：原始类型の克隆术
+### 案例1：原始类型的克隆术
 ```javascript
 let salary = 5000;    // 栈区入住
 let actualSalary = salary; // 完美克隆新房间
@@ -41,7 +41,7 @@ actualSalary = 0;     // 只修改克隆体
 console.log(salary);  // 5000（原版毫发无损）
 ```
 
-### 案例2：引用类型の影分身
+### 案例2：引用类型的影分身
 ```javascript
 const slackingMethods = ['刷微博', '带薪拉屎']; // 堆区豪宅
 const newMethods = slackingMethods;           // 共享门牌号
@@ -103,6 +103,6 @@ const deepCopy = JSON.parse(JSON.stringify(originalObj));
 const newArray = [...salaryList];
 ```
 
-> 下集预告：类型转换の魔术——如何把加班变成摸鱼？
+> 下集预告：类型转换的魔术——如何把加班变成摸鱼？
 
 💡 记住：原始类型像U盘——随身携带，引用类型像云盘——改一处处处变。内存管理就像合租——找好室友最重要！ 🏡 
