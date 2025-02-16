@@ -16,7 +16,7 @@
 ### 🔄 JSON与JS对象互转
 
 **1. 对象转JSON（序列化）**
-```javascript:08-json-intro/script.js
+```javascript
 const post = {
   id: 1,
   title: '文章一',
@@ -30,7 +30,7 @@ console.log(str);
 ```
 
 **2. JSON转对象（反序列化）**
-```javascript:08-json-intro/script.js
+```javascript
 // JSON字符串 → 对象
 const obj = JSON.parse(str);
 console.log(obj.title); // "文章一"
@@ -43,7 +43,8 @@ console.log(obj.title); // "文章一"
 - **键名必须双引号**：`{"name": "John"}` ✅ vs `{name: "John"}` ❌
 - **值类型限制**：支持字符串、数字、布尔、数组、对象、null
 - **数组处理**：同样支持序列化/反序列化
-```javascript:08-json-intro/script.js
+
+```javascript
 const posts = [
   { id: 1, title: '文章一' },
   { id: 2, title: '文章二' }
@@ -58,7 +59,7 @@ const str2 = JSON.stringify(posts);
 ### 🚨 常见踩坑点
 
 - **直接访问JSON字符串属性**会得到undefined
-```javascript:08-json-intro/script.js
+```javascript
 console.log(str.id); // undefined（需要先parse）
 ```
 
