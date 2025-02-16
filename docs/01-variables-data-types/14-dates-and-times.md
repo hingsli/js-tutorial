@@ -5,22 +5,22 @@
 ### 1. 创建时间（老板的生日提醒）
 ```javascript
 // 当前摸鱼时间
-let 摸鱼时间 = new Date();
+let slackTime = new Date();
 
 // 指定老板生日（月份从0开始！）
-let 老板生日 = new Date(2023, 11, 25, 9, 30, 0); // 2023年12月25日 9:30:00
+let bossBirthday = new Date(2023, 11, 25, 9, 30, 0); // 2023年12月25日 9:30:00
 
 // 字符串创建法（小心时区陷阱！）
-let 项目截止日 = new Date('2023-07-31T23:59:59');
+let projectDeadline = new Date('2023-07-31T23:59:59');
 ```
 
 ### 2. 时间变形术
 ```javascript
 // 变成摸鱼专用字符串
-console.log(摸鱼时间.toString()); // "Mon Oct 30 2023 15:30:00 GMT+0800 (中国标准时间)"
+console.log(slackTime.toString()); // "Mon Oct 30 2023 15:30:00 GMT+0800 (中国标准时间)"
 
 // 获取时间戳（摸鱼倒计时）
-let 摸鱼倒计时 = 摸鱼时间.getTime(); // 1698651000000 → 1970年以来的毫秒数
+let slackCountdown = slackTime.getTime(); // 1698651000000 → 1970年以来的毫秒数
 ```
 
 ---
@@ -29,16 +29,16 @@ let 摸鱼倒计时 = 摸鱼时间.getTime(); // 1698651000000 → 1970年以来
 
 ### 1. 当前时间戳
 ```javascript
-const 此刻 = Date.now(); // 适合记录摸鱼开始时间
+const now = Date.now(); // 适合记录摸鱼开始时间
 ```
 
 ### 2. 时间戳互转
 ```javascript
 // 时间戳转日期
-const 摸鱼结束时间 = new Date(1698651000000); 
+const slackEndTime = new Date(1698651000000); 
 
 // 秒级时间戳（防卷方案）
-const 摸鱼秒数 = Math.floor(Date.now() / 1000);
+const slackSeconds = Math.floor(Date.now() / 1000);
 ```
 
 ---
