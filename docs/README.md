@@ -23,7 +23,6 @@
 // 随堂挑战项目
 const challenges = [
   { title: '字符串处理', path: '/01-variables-data-types/10-capitalize-challenge' },
-  { title: '数字计算', path: '/01-variables-data-types/13-number-challenge' },
-  { title: '日期操作', path: '/01-variables-data-types/14-dates-and-times' }
+  { title: '数字计算', path: '/01-variables-data-types/13-number-challenge' }
 ];
 ```
