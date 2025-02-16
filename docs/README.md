@@ -16,6 +16,8 @@
 - **日期与时间**  
   [日期时间](/01-variables-data-types/14-dates-and-times) → [日期方法](/01-variables-data-types/15-date-object-methods)
 
+### 📦 数组和对象
+- [数组基础](/02-arrays-objects/01-array-basics) → [数组方法](/02-arrays-objects/02-array-methods)
 
 
 ### 🏆 实战专区
