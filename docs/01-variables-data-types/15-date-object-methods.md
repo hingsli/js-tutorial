@@ -4,21 +4,21 @@
 
 ### 1. 时间拆解术
 ```javascript
-const 摸鱼时间 = new Date();
+const slackTime = new Date();
 
 // 获取老板查岗时间
-console.log(摸鱼时间.getFullYear());  // 2023 → 当前年份
-console.log(摸鱼时间.getMonth() + 1); // 7 → 月份要+1（反人类设计！）
-console.log(摸鱼时间.getDate());      // 15 → 当月第几天
-console.log(摸鱼时间.getDay());       // 3 → 周三（0=周日开始）
+console.log(slackTime.getFullYear());  // 2023 → 当前年份
+console.log(slackTime.getMonth() + 1); // 7 → 月份要+1（反人类设计！）
+console.log(slackTime.getDate());      // 15 → 当月第几天
+console.log(slackTime.getDay());       // 3 → 周三（0=周日开始）
 ```
 
 ### 2. 精确到毫秒的摸鱼
 ```javascript
-console.log(摸鱼时间.getHours());    // 15 → 下午三点
-console.log(摸鱼时间.getMinutes());  // 30 → 摸鱼30分钟
-console.log(摸鱼时间.getSeconds());  // 45 → 假装在工作
-console.log(摸鱼时间.getMilliseconds()); // 250 → 摸鱼手速
+console.log(slackTime.getHours());    // 15 → 下午三点
+console.log(slackTime.getMinutes());  // 30 → 摸鱼30分钟
+console.log(slackTime.getSeconds());  // 45 → 假装在工作
+console.log(slackTime.getMilliseconds()); // 250 → 摸鱼手速
 ```
 
 ---
@@ -28,19 +28,19 @@ console.log(摸鱼时间.getMilliseconds()); // 250 → 摸鱼手速
 ### 1. 国际摸鱼格式
 ```javascript
 // 美式摸鱼（MM/DD/YY）
-console.log(Intl.DateTimeFormat('en-US').format(摸鱼时间)); // "7/15/2023"
+console.log(Intl.DateTimeFormat('en-US').format(slackTime)); // "7/15/2023"
 
 // 英式摸鱼（DD/MM/YY）
-console.log(Intl.DateTimeFormat('en-GB').format(摸鱼时间)); // "15/07/2023"
+console.log(Intl.DateTimeFormat('en-GB').format(slackTime)); // "15/07/2023"
 ```
 
 ### 2. 摸鱼专用格式
 ```javascript
 // 获取完整月份名（适合写周报）
-console.log(Intl.DateTimeFormat('default', { month: 'long' }).format(摸鱼时间)); // "七月"
+console.log(Intl.DateTimeFormat('default', { month: 'long' }).format(slackTime)); // "七月"
 
 // 获取缩写月份（适合偷懒）
-console.log(摸鱼时间.toLocaleString('default', { month: 'short' })); // "7月"
+console.log(slackTime.toLocaleString('default', { month: 'short' })); // "7月"
 ```
 
 ---
@@ -49,7 +49,7 @@ console.log(摸鱼时间.toLocaleString('default', { month: 'short' })); // "7�
 
 ### 1. 完美摸鱼时间格式
 ```javascript
-const 摸鱼报告 = 摸鱼时间.toLocaleString('default', {
+const slackReport = slackTime.toLocaleString('default', {
   weekday: 'long',     // 星期全称
   year: 'numeric',     // 数字年份
   month: 'long',       // 月份全称
@@ -65,10 +65,10 @@ const 摸鱼报告 = 摸鱼时间.toLocaleString('default', {
 ### 2. 时间戳转换秘籍
 ```javascript
 // 记录摸鱼开始时间
-const 摸鱼开始时间戳 = 摸鱼时间.getTime();
+const slackStartTimestamp = slackTime.getTime();
 
 // 时间戳还原现场
-const 摸鱼现场还原 = new Date(摸鱼开始时间戳);
+const restoreSlackScene = new Date(slackStartTimestamp);
 ```
 
 ---
