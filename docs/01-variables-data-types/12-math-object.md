@@ -4,7 +4,7 @@
 
 ### 1. 开平方（老板的血压值）
 ```javascript
-let 老板血压 = Math.sqrt(10000); // 100 → 建议立即拨打120
+let bossBloodPressure = Math.sqrt(10000); // 100 → 建议立即拨打120
 ```
 
 ### 2. 绝对值（摸鱼哲学）
@@ -47,19 +47,19 @@ console.log(Math.max(3000, 5000, 2500)); // 5000 → 招聘广告数字
 
 ### 1. 基础随机（0-1之间）
 ```javascript
-const 摸鱼概率 = Math.random(); // 0.996 → 摸鱼天赋点满
+const slackProbability = Math.random(); // 0.996 → 摸鱼天赋点满
 ```
 
 ### 2. 范围随机（1-100）
 ```javascript
 // 摸鱼式抽奖
-const 年会奖品 = Math.floor(Math.random() * 100 + 1); 
+const annualAward = Math.floor(Math.random() * 100 + 1); 
 // 永远抽不到阳光普照奖之外
 ```
 
 ### 3. 高级应用（随机颜色）
 ```javascript
-const 随机颜色 = `#${Math.floor(Math.random()*16777215).toString(16)}`;
+const randomColor = `#${Math.floor(Math.random()*16777215).toString(16)}`;
 // 生成程序员专属幸运色
 ```
 
