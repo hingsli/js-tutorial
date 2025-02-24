@@ -23,6 +23,15 @@
   [对象字面量](/02-arrays-objects/05-object-literals) → [对象展开方法](/02-arrays-objects/06-object-spread-methods) → [解构重命名](/02-arrays-objects/07-destructuring-naming)  
 - 🌐 **数据交换与实战**  
   [JSON指南](/02-arrays-objects/08-json-intro) → [对象综合挑战](/02-arrays-objects/09-object-challenge)
+### 🚀 函数与作用域
+- 📚 **函数核心**  
+  [函数基础](/03-functions-scope/01-function-basics) → [参数与实参](/03-functions-scope/02-params-arguments) → [全局/函数作用域](/03-functions-scope/03-global-function-scope)  
+- 🧱 **作用域进阶**  
+  [块级作用域](/03-functions-scope/04-block-scope) → [嵌套作用域](/03-functions-scope/05-nested-scope) → [声明与表达式](/03-functions-scope/06-declaration-vs-expression)  
+- 🏹 **函数变体**  
+  [箭头函数](/03-functions-scope/07-arrow-functions) → [立即执行函数](/03-functions-scope/08-iife) → [函数挑战](/03-functions-scope/09-function-challenges)  
+- 🎭 **执行机制**  
+  [执行上下文实战](/03-functions-scope/10-execution-context-in-action) → [调用栈原理](/03-functions-scope/11-call-stack)
 
 
 ### 🏆 实战专区
@@ -32,6 +41,7 @@ const challenges = [
   { title: '字符串处理', path: '/01-variables-data-types/10-capitalize-challenge' },
   { title: '数字计算', path: '/01-variables-data-types/13-number-challenge' },
   { title: '数组操作', path: '/02-arrays-objects/04-array-challenge' },
-  { title: '对象操作', path: '/02-arrays-objects/09-object-challenge' }
+  { title: '对象操作', path: '/02-arrays-objects/09-object-challenge' },
+  { title: '函数挑战', path: '/03-functions-scope/09-function-challenges' }
 ];
 ```
