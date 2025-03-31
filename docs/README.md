@@ -48,11 +48,14 @@
 
 
 ### 🔄 循环与数组方法
-- [循环基础](/06-iteration-array-methods/01-for-loop) → [流程控制](/06-iteration-array-methods/02-break-and-continue) → [while 循环](/06-iteration-array-methods/03-while-do-while)  
-- [FizzBuzz 挑战](/06-iteration-array-methods/04-fizzbuzz-challenge) → [for...of 遍历](/06-iteration-array-methods/05-for-of-loop) → [对象属性遍历](/06-iteration-array-methods/06-for-in-loop)  
-- [数组遍历](/06-iteration-array-methods/07-forEach) → [数据过滤](/06-iteration-array-methods/08-filter) → [数据转换](/06-iteration-array-methods/09-map)  
-- [数据聚合](/06-iteration-array-methods/10-reduce) → [综合挑战](/06-iteration-array-methods/11-array-method-challenges)
+  - [循环基础](/06-iteration-array-methods/01-for-loop) → [流程控制](/06-iteration-array-methods/02-break-and-continue) → [while 循环](/06-iteration-array-methods/03-while-do-while)  
+  - [FizzBuzz 挑战](/06-iteration-array-methods/04-fizzbuzz-challenge) → [for...of 遍历](/06-iteration-array-methods/05-for-of-loop) → [对象属性遍历](/06-iteration-array-methods/06-for-in-loop)  
+  - [数组遍历](/06-iteration-array-methods/07-forEach) → [数据过滤](/06-iteration-array-methods/08-filter) → [数据转换](/06-iteration-array-methods/09-map)  
+  - [数据聚合](/06-iteration-array-methods/10-reduce) → [综合挑战](/06-iteration-array-methods/11-array-method-challenges)
 
+### 🛠️ 基础阶段实战2
+- 🐾 **文字版宠物养成游戏**  
+  [文字版宠物养成游戏](/07-pet-game/01-pet-game)
 
 ## 🏆 实战专区
 ```javascript
@@ -67,5 +70,6 @@ const challenges = [
   { title: '计算器挑战', path: '/05-logic-control-flow/04-calculator-challenge' },
   { title: 'FizzBuzz 挑战', path: '/06-iteration-array-methods/04-fizzbuzz-challenge' },
   { title: '数组方法综合', path: '/06-iteration-array-methods/11-array-method-challenges' },
+  { title: '文字版宠物养成游戏', path: '/07-pet-game/01-pet-game' },
 ];
 ```
