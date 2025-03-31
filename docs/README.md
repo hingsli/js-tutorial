@@ -38,7 +38,23 @@
 - 🔢 **猜数字游戏**  
   [猜数字游戏](/04-number-game/01-number-game)
 
-### 🏆 实战专区
+### 🎯 逻辑控制流
+- 🕹️ **流程控制基础**  
+  [条件语句](/05-logic-control-flow/01-if-statements) → [嵌套条件](/05-logic-control-flow/02-else-if-nesting) → [switch语句](/05-logic-control-flow/03-switches)  
+- 🧮 **实战演练**  
+  [计算器挑战](/05-logic-control-flow/04-calculator-challenge)  
+- 🎚️ **逻辑运算进阶**  
+  [真值判断](/05-logic-control-flow/05-truthy-falsy) → [逻辑运算符](/05-logic-control-flow/06-logical-operators) → [逻辑赋值](/05-logic-control-flow/07-logical-assignment) → [三元表达式](/05-logic-control-flow/08-ternary-operator)
+
+
+### 🔄 循环与数组方法
+- [循环基础](/06-iteration-array-methods/01-for-loop) → [流程控制](/06-iteration-array-methods/02-break-and-continue) → [while 循环](/06-iteration-array-methods/03-while-do-while)  
+- [FizzBuzz 挑战](/06-iteration-array-methods/04-fizzbuzz-challenge) → [for...of 遍历](/06-iteration-array-methods/05-for-of-loop) → [对象属性遍历](/06-iteration-array-methods/06-for-in-loop)  
+- [数组遍历](/06-iteration-array-methods/07-forEach) → [数据过滤](/06-iteration-array-methods/08-filter) → [数据转换](/06-iteration-array-methods/09-map)  
+- [数据聚合](/06-iteration-array-methods/10-reduce) → [综合挑战](/06-iteration-array-methods/11-array-method-challenges)
+
+
+## 🏆 实战专区
 ```javascript
 // 随堂挑战项目
 const challenges = [
@@ -47,6 +63,9 @@ const challenges = [
   { title: '数组操作', path: '/02-arrays-objects/04-array-challenge' },
   { title: '对象操作', path: '/02-arrays-objects/09-object-challenge' },
   { title: '函数挑战', path: '/03-functions-scope/09-function-challenges' },
-  { title: '猜数字游戏', path: '/04-number-game/01-number-game' }
+  { title: '猜数字游戏', path: '/04-number-game/01-number-game' },
+  { title: '计算器挑战', path: '/05-logic-control-flow/04-calculator-challenge' },
+  { title: 'FizzBuzz 挑战', path: '/06-iteration-array-methods/04-fizzbuzz-challenge' },
+  { title: '数组方法综合', path: '/06-iteration-array-methods/11-array-method-challenges' },
 ];
 ```
