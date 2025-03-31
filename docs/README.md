@@ -23,6 +23,7 @@
   [对象字面量](/02-arrays-objects/05-object-literals) → [对象展开方法](/02-arrays-objects/06-object-spread-methods) → [解构重命名](/02-arrays-objects/07-destructuring-naming)  
 - 🌐 **数据交换与实战**  
   [JSON指南](/02-arrays-objects/08-json-intro) → [对象综合挑战](/02-arrays-objects/09-object-challenge)
+
 ### 🚀 函数与作用域
 - 📚 **函数核心**  
   [函数基础](/03-functions-scope/01-function-basics) → [参数与实参](/03-functions-scope/02-params-arguments) → [全局/函数作用域](/03-functions-scope/03-global-function-scope)  
@@ -33,6 +34,9 @@
 - 🎭 **执行机制**  
   [执行上下文实战](/03-functions-scope/10-execution-context-in-action) → [调用栈原理](/03-functions-scope/11-call-stack)
 
+### 🛠️ 基础阶段实战
+- 🔢 **猜数字游戏**  
+  [猜数字游戏](/04-number-game/01-number-game)
 
 ### 🏆 实战专区
 ```javascript
@@ -42,6 +46,7 @@ const challenges = [
   { title: '数字计算', path: '/01-variables-data-types/13-number-challenge' },
   { title: '数组操作', path: '/02-arrays-objects/04-array-challenge' },
   { title: '对象操作', path: '/02-arrays-objects/09-object-challenge' },
-  { title: '函数挑战', path: '/03-functions-scope/09-function-challenges' }
+  { title: '函数挑战', path: '/03-functions-scope/09-function-challenges' },
+  { title: '猜数字游戏', path: '/04-number-game/01-number-game' }
 ];
 ```
